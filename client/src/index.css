@@ -1,0 +1,94 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Playpen+Sans:wght@400;500;600;700;800&display=swap'
+);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+
+  min-width: 320px;
+
+  font-family:
+    "Playpen Sans",
+    cursive,
+    sans-serif;
+
+  background-color:
+    #FAF6F0;
+
+  color:
+    #2B2625;
+
+  background-image:
+    radial-gradient(
+      #2b262510 0.75px,
+      transparent 0.75px
+    ),
+    radial-gradient(
+      #2b262508 0.75px,
+      #FAF6F0 0.75px
+    );
+
+  background-size:
+    30px 30px;
+
+  background-position:
+    0 0,
+    15px 15px;
+
+  min-height: 100vh;
+}
+
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+
+::selection {
+  background:
+    #FFD6E0;
+
+  color:
+    #2B2625;
+}
+
+
+.font-sketch-heading {
+  font-family:
+    "Architects Daughter",
+    cursive;
+}
+
+
+.font-handwriting {
+  font-family:
+    "Patrick Hand",
+    cursive;
+}
